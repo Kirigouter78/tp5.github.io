@@ -1,0 +1,171 @@
+h1 {
+  color: black;
+  font-size: 24px; 
+}
+
+p {
+  width: 250px;
+  height: 110px;
+  text-align: justify;
+  overflow: auto;
+}
+
+a {
+  color: black;
+}
+
+.important {
+  color: #a5b4fc;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: beige;
+  background: radial-gradient(circle at 50% 0, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0) 70.71%),
+              radial-gradient(circle at 6.7% 75%, rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0) 70.71%),
+              radial-gradient(circle at 93.3% 75%, rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0) 70.71%);
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.p {
+  width: 350px;
+  background-color: white;
+  text-align: justify;
+  padding: 16px;
+  margin: auto;
+}
+
+.padding {
+  width: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  margin-left: 30px;
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+  height: auto;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 50px 100px 200px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.tableaux-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tableau {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-item {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-wrapper {
+  display: grid;
+  gap: 20px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.table {
+  border: 1px solid black;
+  margin: auto;
+}
+
+fieldset {
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+legend {
+  background-color: white;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+textarea {
+  height: 100px;
+  width: 600px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 996px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
